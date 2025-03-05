@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio Page">
+  <title>Your Name - Personal Page</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <style>
+    /* Basic inline styles for simplicity */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .about, .portfolio, .contact {
+      margin-bottom: 40px;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Claudia Kraxner</h1>
+  <p>Welcome to my personal page!</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>Hello! My name is Claudia, and I am passionate about all things outdoor, gardening, lifelong learing and science fiction. I specialize in nothing. As a generalist I do a little bit of everything and bring people with specialist knowledge together. </p>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <h2>Portfolio</h2>
+  <p>Here are some of my recent projects:</p>
+  <ul>
+    <li><strong>Gugelwaldgarten:</strong> Description of the project. <a href="#" target="_blank">View Project</a></li>
+    <li><strong>Reiche Erde:</strong> Description of the project. <a href="#" target="_blank">View Project</a></li>
+    <li><strong>Family:</strong> Description of the project. <a href="#" target="_blank">View Project</a></li>
+  </ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>If you'd like to get in touch, feel free to reach out via email or connect with me on social media:</p>
+  <ul>
+    <li>Email: <a href="mailto:ckraxner11@gmail.com">ckraxner11@gmail.com</a></li>
+    <li>LinkedIn: <a href="#" target="_blank">Your LinkedIn Profile</a></li>
+    <li>GitHub: <a href="#" target="_blank">ClaudiaKora</a></li>
+  </ul>
+</section>
+
+<footer>
+  &copy; <?php echo date("Y"); ?> Claudia Kraxner. All Rights Reserved.
+</footer>
+
+</body>
+</html>
