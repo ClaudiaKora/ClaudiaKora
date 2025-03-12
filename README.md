@@ -1,5 +1,3 @@
-#  Personal Page for a University Project
-
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="ruebenbaum.jpg">
  <source media="(prefers-color-scheme: light)" srcset="karottenbaum.jpg">
