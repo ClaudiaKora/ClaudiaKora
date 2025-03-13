@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #CC967B;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -18,7 +18,7 @@ body {
 
 /* Heading styles */
 h1 {
-    color: #0e4a0b;
+    color: #AC372B;
     text-align: center;
     margin-bottom: 20px;
     font-size: 2.5rem;
@@ -26,7 +26,7 @@ h1 {
 
 h2 {
     color: #39a632;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #AC372B;
     padding-bottom: 10px;
     margin: 25px 0 15px;
 }
@@ -61,7 +61,7 @@ a:hover {
 
 /* Container styles */
 .container {
-    background-color: white;
+    background-color: #CC967B;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
