@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #407F3D;
     background-color: #CC967B;
     max-width: 1200px;
     margin: 0 auto;
@@ -33,7 +33,7 @@ h2 {
 
 /* Link styles */
 a {
-    color: #35d42a;
+    color: #845a4B;
     text-decoration: none;
     transition: color 0.3s ease;
 }
