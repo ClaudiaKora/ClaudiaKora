@@ -4,6 +4,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    width: 100sw;
+    position: relative;
+    padding: 1rem 0;
+    background: #C37c4D; 
+    text-align: center;
+  }
+  .header-container {
+    width: 100sw;
+   
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .logo-container {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+  }
+  .logo-img {
+    width: 15sw;
+    max-width: 200px;
+    min-width: 80px;
+    height: auto;
+  } 
+  .headerbody-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  section {
+    padding: 5px;
+    max-width: 800px;
+    margin: auto;
+  }
+  .about, .portfolio, .contact {
+    margin-bottom: 40px;
+  }
+  footer {
+    color: #AC372B;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+  }
 
 /* Body styles */
 body {
@@ -47,12 +100,13 @@ a:hover {
 .button {
     display: inline-block;
     background-color: #AC372B;
-    color: white;
+    color: rgb(207, 171, 124);
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-bottom: 10px;
 }
 
 .button:hover {
